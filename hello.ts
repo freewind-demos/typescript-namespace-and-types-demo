@@ -1,3 +1,5 @@
-import {capitalize} from 'lodash';
-
-console.log("Hello, " + capitalize("typescript") + "!");
+export namespace hello {
+  export type HelloType = {
+    hello: () => void
+  }
+}
